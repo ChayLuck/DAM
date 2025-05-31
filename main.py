@@ -6,7 +6,7 @@ from query import query_tree
 from visualizer import visualize_points, visualize_tree
 
 # Ayarlar
-INPUT_FILE = 'data/file.csv'
+INPUT_FILE = 'data/file_mini.csv'
 SORTED_FILE = 'data/sorted_points.csv'
 TREE_FILE = 'data/tree_structure.json'
 OUTPUT_DIR = 'data/partitions'
@@ -15,10 +15,10 @@ MEMORY_LIMIT = 10 * 1024 * 1024  # 10 MB
 
 # Bounding box sorgu araligi (ornek)
 BBOX = {
-    'xmin': 394373.0,
-    'xmax': 394375.0,
-    'ymin': 39305.7,
-    'ymax': 39306.0
+    'xmin': 2006.7,
+    'xmax': 2006.8,
+    'ymin': 1628.1,
+    'ymax': 1629.5
 }
 
 if __name__ == '__main__':
