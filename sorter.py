@@ -1,4 +1,3 @@
-# disk_access_model/sorter.py
 import os
 import csv
 import heapq

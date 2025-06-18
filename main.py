@@ -13,7 +13,7 @@ OUTPUT_DIR = 'data/partitions'
 RESULT_FILE = 'data/query_result.csv'
 MEMORY_LIMIT = 10 * 1024 * 1024  # 10 MB
 
-# Bounding box sorgu araligi (ornek)
+# Bounding box sorgu araligi
 BBOX = {
     'xmin': 2006.7,
     'xmax': 2006.8,

@@ -1,4 +1,3 @@
-# disk_access_model/visualizer.py
 import matplotlib.pyplot as plt
 from tree_builder import TreeNode
 

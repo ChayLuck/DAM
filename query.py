@@ -1,4 +1,3 @@
-# disk_access_model/query.py
 import csv
 from tree_builder import TreeNode
 
