@@ -1,4 +1,3 @@
-# disk_access_model/main.py
 import os
 from sorter import external_sort
 from tree_builder import build_tree, save_tree

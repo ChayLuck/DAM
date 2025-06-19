@@ -24,11 +24,12 @@ def visualize_tree(node, bounds=None, depth=0, ax=None):
         return
 
     if ax is None:
-        fig, ax = plt.subplots(figsize=(8, 6))
-        bounds = {
-            'xmin': 394372.0, 'xmax': 394376.0,
-            'ymin': 39305.6, 'ymax': 39306.1
-        }
+      fig, ax = plt.subplots(figsize=(8, 6))
+      bounds = {
+        'xmin': 2005.75, 'xmax': 2007.80,
+        'ymin': 1627.1, 'ymax': 1630.6
+    }
+
 
     axis = node.axis
     median = node.median
@@ -53,11 +54,4 @@ def visualize_tree(node, bounds=None, depth=0, ax=None):
     if node.right:
         visualize_tree(node.right, right_bounds, depth + 1, ax)
 
-    if depth == 0:
-        ax.set_xlim(bounds['xmin'], bounds['xmax'])
-        ax.set_ylim(bounds['ymin'], bounds['ymax'])
-        ax.set_title("Binary Tree Partition Visualization")
-        plt.xlabel('X')
-        plt.ylabel('Y')
-        plt.grid(True)
-        plt.show()
+    
